@@ -1,0 +1,562 @@
+{
+  "profile": {
+    "name": "Sarthak Mittal",
+    "role": "Software Developer",
+    "location": "Gurugram, Haryana",
+    "email": "sarthakmittalcs@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/sarthak-mittal-/",
+    "x": "https://x.com/sarmittal",
+    "github": "https://github.com/iam-sarthak",
+    "resumeHref": "/sarthak-mittal-resume.pdf",
+    "headline": "Backend engineer who ships APIs, AI workflows and systems that stay up."
+  },
+  "experience": [
+    {
+      "company": "CareCoin Technologies (CarePay)",
+      "type": "Fintech Startup",
+      "title": "Backend Engineer",
+      "location": "Gurgaon, Haryana",
+      "dates": "September 2025 – Present",
+      "current": true,
+      "accent": "purple",
+      "stack": ["Java", "Spring Boot", "Python", "LangChain", "PostgreSQL", "AWS S3", "Docker"],
+      "highlights": [
+        "Built backend systems for lead management platforms, enabling processing of 200 applications per day.",
+        "Developed and integrated 500+ production REST API endpoints supporting customer onboarding, loan processing, and document management workflows.",
+        "Reduced API response times by 40% by optimizing PostgreSQL queries and adding database indexes.",
+        "Developed an AI-based user workflow using RAG to simplify the end-to-end loan application journey.",
+        "Onboarded and integrated 2 NBFCs including Poonawalla Fincorp and Findoc into the loan-processing stack.",
+        "Automated 4+ recurring operational workflows, reducing manual effort for daily backend operations."
+      ]
+    },
+    {
+      "company": "Vasudhaiva Kutumbakam Group (Leverage Edu)",
+      "type": "Ed-tech Startup",
+      "title": "Backend Engineer",
+      "location": "Noida, Uttar Pradesh",
+      "dates": "January 2025 – August 2025",
+      "current": false,
+      "accent": "teal",
+      "stack": ["Node.js", "Express.js", "React.js", "MongoDB", "Git", "Postman"],
+      "highlights": [
+        "Developed and maintained REST APIs and backend services supporting 2 internal business operations teams.",
+        "Resolved 150+ production issues across APIs, database queries, and application workflows, improving system stability and reducing recurring defects.",
+        "Collaborated with product and QA teams to design, implement, and test REST API integrations for new features."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "slug": "ai-contract-intelligence",
+      "name": "AI Contract Intelligence Platform",
+      "dates": "January 2026 – April 2026",
+      "stack": ["Java", "Spring Boot", "PostgreSQL", "Google Gemini", "REST APIs"],
+      "illustration": "/illustrations/illo-documents.png",
+      "accent": "purple",
+      "featured": true,
+      "oneLiner": "Analyze PDF and DOCX contracts — summaries, clause extraction, risk flags and semantic Q&A.",
+      "highlights": [
+        "Built a contract intelligence platform that analyzes PDF/DOCX documents to summarize contracts, extract clauses, identify potential risks, compare documents, and support semantic Q&A.",
+        "Developed an AI-powered analysis backend using Spring Boot, PostgreSQL and Google Gemini for RAG chat, semantic search and automated legal document analysis.",
+        "Built asynchronous PDF/DOCX ingestion with embedding storage and HNSW-based vector indexing for contract Q&A and cross-document retrieval."
+      ],
+      "github": "https://github.com/iam-sarthak/ai-contract-backend"
+    },
+    {
+      "slug": "ai-interview-simulator",
+      "name": "AI Interview Simulator",
+      "dates": "August 2024 – December 2024",
+      "stack": ["MongoDB", "Express.js", "React.js", "Node.js", "LLM APIs"],
+      "illustration": "/illustrations/illo-dashboard.png",
+      "accent": "teal",
+      "featured": true,
+      "oneLiner": "Mock interviews with dynamic questions, LLM evaluation, scoring and facial-expression analysis.",
+      "highlights": [
+        "Developed a web-based interview simulator with AI-driven evaluation for real-time, accurate responses.",
+        "Integrated an LLM feedback system to deliver results with 96.4%+ response accuracy, plus facial-expression confidence scores for performance tracking.",
+        "Built a real-time analysis pipeline and a cross-platform React app that increased user engagement."
+      ],
+      "github": "https://github.com/iam-sarthak/InterviewLens",
+      "live": "https://interview-lens.vercel.app"
+    },
+    {
+      "slug": "dealstack-crm",
+      "name": "Dealstack CRM",
+      "dates": "2025",
+      "stack": ["Node.js", "Express", "React", "REST APIs"],
+      "illustration": "/illustrations/illo-leads.png",
+      "accent": "blue",
+      "featured": true,
+      "oneLiner": "Full-stack CRM for leads, deals and customer workflows with a live sales pipeline.",
+      "highlights": [
+        "Built REST APIs in Node.js and Express with secure authentication and structured schemas for leads, deals and customers.",
+        "Designed a React frontend for tracking sales pipelines and customer interactions in one place."
+      ],
+      "github": "https://github.com/iam-sarthak/DealStackCRM",
+      "live": "https://dealstackbackend.vercel.app"
+    },
+    {
+      "slug": "deliciro",
+      "name": "DELICIRO — Food Ordering Website",
+      "dates": "June 2024",
+      "stack": ["React.js", "HTML", "CSS"],
+      "illustration": "/illustrations/illo-invoice.png",
+      "accent": "yellow",
+      "featured": true,
+      "oneLiner": "Responsive food-ordering site with dynamic menus, reusable components and clean UI.",
+      "highlights": [
+        "Built a fully functional food ordering website in React with dynamic menu listings and client-side state management.",
+        "Focused on systematic coding, advanced CSS and fast, cross-device layouts."
+      ],
+      "github": "https://github.com/iam-sarthak/deliciro"
+    },
+    {
+      "slug": "web-guitar",
+      "name": "Interactive Web Guitar",
+      "dates": "June 2024",
+      "stack": ["HTML", "CSS", "GSAP", "SVG"],
+      "illustration": "/illustrations/illo-call.png",
+      "accent": "purple",
+      "featured": true,
+      "oneLiner": "SVG guitar strings that bend with the mouse and play a note when you pluck them.",
+      "highlights": [
+        "Used GSAP to animate SVG paths so each string curves like a real pluck.",
+        "Mapped mouse interaction to audio playback while respecting browser autoplay rules."
+      ],
+      "github": "https://github.com/iam-sarthak/guitar"
+    },
+    {
+      "slug": "sorting-visualizer",
+      "name": "Sorting Visualizer",
+      "dates": "March 2022 – June 2023",
+      "stack": ["HTML", "CSS", "JavaScript", "React"],
+      "illustration": "/illustrations/illo-dashboard.png",
+      "accent": "teal",
+      "oneLiner": "Watch sorting algorithms step through an array — built as a teaching tool for beginners.",
+      "highlights": [
+        "Visualized multiple sorting algorithms so you can see comparisons, swaps and time complexity in motion.",
+        "Shipped both a vanilla JS version and a React rewrite."
+      ],
+      "github": "https://github.com/iam-sarthak/Sorting-Visualizer"
+    },
+    {
+      "slug": "connect-four",
+      "name": "Connect Four",
+      "dates": "April 2024 – May 2024",
+      "stack": ["React.js", "HTML", "CSS"],
+      "illustration": "/illustrations/illo-calendar.png",
+      "accent": "blue",
+      "oneLiner": "Classic Connect Four in the browser, with a focus on board state and win-detection algorithms.",
+      "highlights": [
+        "Implemented game-board data structures and win/draw detection in React.",
+        "Used the project to practice algorithm optimization in a real UI, not just on paper."
+      ],
+      "github": "https://github.com/iam-sarthak/connect-four"
+    },
+    {
+      "slug": "hanging-man",
+      "name": "Hanging Man",
+      "dates": "April 2024",
+      "stack": ["React", "Vite", "HTML", "CSS"],
+      "illustration": "/illustrations/illo-email.png",
+      "accent": "coral",
+      "oneLiner": "Hangman with a Dribbble-inspired UI, built in React and Vite.",
+      "highlights": [
+        "Rebuilt hangman as a polished web game from a Dribbble design.",
+        "Handled keyboard input, remaining lives and word state in React."
+      ],
+      "github": "https://github.com/iam-sarthak/hanging-man"
+    },
+    {
+      "slug": "tic-tac-toe",
+      "name": "Tic-Tac-Toe Pro",
+      "dates": "2023",
+      "stack": ["HTML", "CSS", "JavaScript"],
+      "illustration": "/illustrations/illo-leads.png",
+      "accent": "yellow",
+      "oneLiner": "Classic tic-tac-toe that tracks scores and resets itself for the next round.",
+      "highlights": [
+        "Built a complete browser game with score tallying and one-click reset.",
+        "Kept the UI simple so the game logic stays easy to follow."
+      ],
+      "github": "https://github.com/iam-sarthak/tictactoe"
+    },
+    {
+      "slug": "car-parking",
+      "name": "Car Parking",
+      "dates": "2024",
+      "stack": ["JavaScript", "React"],
+      "illustration": "/illustrations/illo-calendar.png",
+      "accent": "purple",
+      "oneLiner": "Find and manage parking slots in a simple web app.",
+      "highlights": [
+        "Modeled parking availability and booking in a lightweight frontend.",
+        "Deployed a live demo for quick walkthroughs."
+      ],
+      "github": "https://github.com/iam-sarthak/car-parking",
+      "live": "https://car-parking-bice.vercel.app"
+    },
+    {
+      "slug": "order-some-happiness",
+      "name": "Order Some Happiness",
+      "dates": "2024",
+      "stack": ["JavaScript", "React"],
+      "illustration": "/illustrations/illo-invoice.png",
+      "accent": "coral",
+      "oneLiner": "A small commerce-style storefront for browsing and placing orders.",
+      "highlights": [
+        "Built a product listing and checkout-style flow in React.",
+        "Practiced component structure and cart-style state."
+      ],
+      "github": "https://github.com/iam-sarthak/order-some-happiness"
+    },
+    {
+      "slug": "batuaa",
+      "name": "Batuaa",
+      "dates": "2024",
+      "stack": ["Dart", "Flutter"],
+      "illustration": "/illustrations/illo-invoice.png",
+      "accent": "teal",
+      "oneLiner": "A Flutter wallet / expense app for tracking money on the go.",
+      "highlights": [
+        "Built a mobile-first money tracker in Dart and Flutter.",
+        "Focused on a clean Material-style UI for everyday use."
+      ],
+      "github": "https://github.com/iam-sarthak/Batuaa"
+    },
+    {
+      "slug": "beacon",
+      "name": "Beacon",
+      "dates": "2024",
+      "stack": ["Flutter", "Dart"],
+      "illustration": "/illustrations/illo-reminder.png",
+      "accent": "blue",
+      "oneLiner": "Share your live location with a group — a Flutter app still evolving.",
+      "highlights": [
+        "Started a Flutter app for sharing location with a trusted group.",
+        "Designed around simple, real-world coordination rather than a social feed."
+      ],
+      "github": "https://github.com/iam-sarthak/beacon"
+    },
+    {
+      "slug": "memory-game",
+      "name": "Memory Game",
+      "dates": "2023",
+      "stack": ["JavaScript", "HTML", "CSS"],
+      "illustration": "/illustrations/illo-dashboard.png",
+      "accent": "yellow",
+      "oneLiner": "Flip cards, match pairs, and beat your last score.",
+      "highlights": [
+        "Implemented card-matching state, timers and a replay loop.",
+        "Kept the interaction snappy so it feels like a game, not a form."
+      ],
+      "github": "https://github.com/iam-sarthak/Memory-game"
+    },
+    {
+      "slug": "news-web",
+      "name": "News Web",
+      "dates": "2024",
+      "stack": ["JavaScript", "React"],
+      "illustration": "/illustrations/illo-email.png",
+      "accent": "purple",
+      "oneLiner": "A news reader that pulls headlines into a clean browsing UI.",
+      "highlights": [
+        "Fetched and rendered article cards with category-style browsing.",
+        "Practiced API consumption and list performance in React."
+      ],
+      "github": "https://github.com/iam-sarthak/news-web"
+    },
+    {
+      "slug": "tweetmimic",
+      "name": "TweetMimic",
+      "dates": "2024",
+      "stack": ["JavaScript"],
+      "illustration": "/illustrations/illo-email.png",
+      "accent": "teal",
+      "oneLiner": "A tweet-style composer and feed UI for practicing social layouts.",
+      "highlights": [
+        "Recreated a timeline-style interface to study composition and feed UX.",
+        "Used it as a playground for component reuse and state."
+      ],
+      "github": "https://github.com/iam-sarthak/TweetMimic"
+    },
+    {
+      "slug": "notes-taker",
+      "name": "Notes Taker",
+      "dates": "2023",
+      "stack": ["JavaScript"],
+      "illustration": "/illustrations/illo-documents.png",
+      "accent": "coral",
+      "oneLiner": "Capture, edit and keep notes in the browser.",
+      "highlights": [
+        "Built a lightweight notes app with create, edit and persist flows.",
+        "Kept the UI minimal so writing stays the main action."
+      ],
+      "github": "https://github.com/iam-sarthak/notes-taker"
+    },
+    {
+      "slug": "simon-game",
+      "name": "Simon Game",
+      "dates": "2023",
+      "stack": ["JavaScript", "HTML", "CSS"],
+      "illustration": "/illustrations/illo-calendar.png",
+      "accent": "yellow",
+      "oneLiner": "Repeat the color sequence before it gets away from you.",
+      "highlights": [
+        "Implemented sequence generation, input checking and level-up logic.",
+        "Used it to practice event timing and game loops in vanilla JS."
+      ],
+      "github": "https://github.com/iam-sarthak/simon-game"
+    },
+    {
+      "slug": "budgeto",
+      "name": "Budgeto",
+      "dates": "2023",
+      "stack": ["JavaScript"],
+      "illustration": "/illustrations/illo-invoice.png",
+      "accent": "blue",
+      "oneLiner": "A small budget tracker for income, spend and remaining balance.",
+      "highlights": [
+        "Modeled income and expense entries with running totals.",
+        "Practiced simple financial UI without a heavy framework."
+      ],
+      "github": "https://github.com/iam-sarthak/budgeto"
+    }
+  ],
+  "skills": [
+    {
+      "label": "Languages",
+      "accent": "purple",
+      "items": ["Java", "Python", "JavaScript", "SQL"]
+    },
+    {
+      "label": "Backend",
+      "accent": "teal",
+      "items": [
+        "Spring Boot",
+        "Spring MVC",
+        "Node.js",
+        "Hibernate",
+        "REST APIs",
+        "Microservices",
+        "JWT",
+        "OAuth 2.0",
+        "Maven"
+      ]
+    },
+    {
+      "label": "Frontend",
+      "accent": "yellow",
+      "items": ["ReactJS", "JavaScript", "HTML", "CSS"]
+    },
+    {
+      "label": "Databases",
+      "accent": "coral",
+      "items": [
+        "PostgreSQL",
+        "MySQL",
+        "MongoDB",
+        "Redis",
+        "Database Design",
+        "Query Optimization",
+        "Indexing"
+      ]
+    },
+    {
+      "label": "AI & LLM",
+      "accent": "blue",
+      "items": [
+        "LLM APIs",
+        "Google Gemini",
+        "LangChain4j",
+        "RAG",
+        "Vector Search",
+        "AI Workflow Automation"
+      ]
+    },
+    {
+      "label": "Cloud & DevOps",
+      "accent": "purple",
+      "items": ["AWS (EC2, S3, RDS)", "Docker", "CI/CD", "Linux", "Supabase"]
+    },
+    {
+      "label": "Tools",
+      "accent": "teal",
+      "items": [
+        "Git",
+        "GitHub",
+        "Bitbucket",
+        "Postman",
+        "IntelliJ IDEA",
+        "Jira",
+        "Cursor",
+        "n8n",
+        "Zapier"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "school": "Thapar Institute of Engineering and Technology",
+      "degree": "Master of Computer Applications",
+      "score": "CGPA 8.6 / 10.0",
+      "location": "Patiala, Punjab",
+      "dates": "July 2023 – May 2025",
+      "accent": "purple"
+    },
+    {
+      "school": "Maharishi Markandeshwar",
+      "degree": "Bachelor of Computer Applications",
+      "score": "CGPA 9.45 / 10.0",
+      "location": "Mullana, Haryana",
+      "dates": "August 2020 – May 2023",
+      "accent": "yellow"
+    }
+  ],
+  "services": [
+    {
+      "title": "Backend & APIs",
+      "blurb": "The core of most of my freelance work — systems that stay up and stay fast.",
+      "accent": "purple",
+      "items": [
+        {
+          "name": "Custom APIs",
+          "description": "Build the backend your product needs — onboarding, payments, CRMs, internal tools — from the first endpoint to a working handoff.",
+          "includes": ["Secure login", "Clean data rules", "Clear documentation", "Easy to test"]
+        },
+        {
+          "name": "Custom backend systems",
+          "description": "New products or help on an existing one. I pick the stack that fits the job, not the other way around.",
+          "includes": ["New builds", "Improvements", "Faster responses", "Reliable day-to-day use"]
+        },
+        {
+          "name": "Third-party integrations",
+          "description": "Connect the tools you already pay for — payments, lenders, CRMs, chat, email, file storage — into one flow.",
+          "includes": ["Payments", "Chat & email", "CRMs", "File storage"]
+        }
+      ]
+    },
+    {
+      "title": "AI systems",
+      "blurb": "Useful AI, not a chatbot slapped on a landing page.",
+      "accent": "teal",
+      "items": [
+        {
+          "name": "Document intelligence",
+          "description": "Upload your files, ask questions, and get answers grounded in what you actually wrote — contracts, policies, SOPs.",
+          "includes": ["Summaries", "Search", "Q&A", "Risk flags"],
+          "href": "/solutions/ai-document-processing"
+        },
+        {
+          "name": "AI workflow automation",
+          "description": "Replace a multi-step manual process with an AI pipeline: extract, classify, route, notify.",
+          "includes": ["Extract data", "Sort & route", "Human review when needed", "A record of what happened"]
+        },
+        {
+          "name": "AI features in your product",
+          "description": "Scoring, summaries, search, or an intake assistant wired into the app you already have.",
+          "includes": ["Summaries", "Smart search", "Scoring", "Safe fallbacks"]
+        }
+      ]
+    },
+    {
+      "title": "Business automation",
+      "blurb": "If your team is copy-pasting between chat, spreadsheets and email, this is the list.",
+      "accent": "coral",
+      "items": [
+        {
+          "name": "Lead management",
+          "description": "Capture leads from every channel, assign them, and follow up without a spreadsheet.",
+          "includes": ["Capture from any channel", "Assignment", "Reminders", "A live pipeline"],
+          "href": "/solutions/lead-management"
+        },
+        {
+          "name": "Chat & messaging automation",
+          "description": "Turn incoming messages into structured leads, orders or tickets — with replies that don't wait on someone unlocking their phone.",
+          "includes": ["Capture messages", "Auto-replies", "Handoff to a person", "A full history"],
+          "href": "/solutions/whatsapp-leads"
+        },
+        {
+          "name": "Invoice & billing",
+          "description": "Generate invoices, send them, and keep payment records without a document and a notebook.",
+          "includes": ["Templates", "Auto-send", "Payment status", "Exports"],
+          "href": "/solutions/invoice-automation"
+        },
+        {
+          "name": "Email automation",
+          "description": "Event-based emails — confirmations, reminders, drips — written once, sent forever.",
+          "includes": ["Triggers", "Templates", "Personalization", "Safe sending"],
+          "href": "/solutions/email-automation"
+        },
+        {
+          "name": "Appointments & reminders",
+          "description": "Online booking, confirmations, and no-show reminders so reception isn't on the phone all day.",
+          "includes": ["Online booking", "Reminders", "Easy reschedule"],
+          "href": "/solutions/appointment-automation"
+        },
+        {
+          "name": "Customer follow-ups",
+          "description": "Quotes, renewals and pending actions get a scheduled nudge instead of living in someone's head.",
+          "includes": ["Rules", "Team alerts", "Customer messages"],
+          "href": "/solutions/follow-up-automation"
+        },
+        {
+          "name": "Reports & live dashboards",
+          "description": "Stop rebuilding the weekly report. Same numbers, live, in a dashboard your team can open.",
+          "includes": ["Live numbers", "Charts", "Role-based views", "Exports"],
+          "href": "/solutions/excel-to-dashboard"
+        },
+        {
+          "name": "Connect the tools you already use",
+          "description": "When a full app is too much, I'll wire your current tools together — and write the bits they can't do on their own.",
+          "includes": ["Map the workflow", "Connect apps", "Fill the gaps", "Keep an eye on it"]
+        }
+      ]
+    },
+    {
+      "title": "Web apps & dashboards",
+      "blurb": "Products your team or customers can actually open and use.",
+      "accent": "yellow",
+      "items": [
+        {
+          "name": "Custom web applications",
+          "description": "A focused product: a CRM, booking tool, internal system, or customer portal — with a real backend behind it.",
+          "includes": ["Clear UI", "Login", "Day-to-day workflows", "Hosting"]
+        },
+        {
+          "name": "Admin dashboards",
+          "description": "See leads, orders, invoices or ops metrics without asking someone to export a sheet.",
+          "includes": ["Filters", "Charts", "Roles", "Works on a phone"],
+          "href": "/solutions/excel-to-dashboard"
+        },
+        {
+          "name": "Websites",
+          "description": "A fast, distinctive site when you need something better than a template — like this one.",
+          "includes": ["Look & feel", "Easy to find", "Contact / booking", "Go live"]
+        }
+      ]
+    },
+    {
+      "title": "Data, hosting & rescue work",
+      "blurb": "The unglamorous jobs that make everything else cheaper to run.",
+      "accent": "blue",
+      "items": [
+        {
+          "name": "Data setup & speed",
+          "description": "A data model that matches the business, and queries that don't make people wait.",
+          "includes": ["Clean structure", "Faster lookups", "Safe changes"]
+        },
+        {
+          "name": "Hosting & go-live",
+          "description": "Get the app off a laptop: a live environment, backups, and a way to roll back if something breaks.",
+          "includes": ["Go live", "Backups", "Updates", "Basic monitoring"]
+        },
+        {
+          "name": "Bug fixes & production support",
+          "description": "Something is broken and your team is tired. I'll find it, fix it, and write down why.",
+          "includes": ["Fix what's broken", "Stop it coming back", "A short write-up"]
+        }
+      ]
+    }
+  ]
+}
