@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Sarthak Mittal — Resume</title>
+    <style>
+      @page {
+        size: A4;
+        margin: 11mm 13mm;
+      }
+
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      html,
+      body {
+        background: #fff;
+        color: #1d1832;
+        font: 9.7pt/1.34 "Helvetica Neue", Helvetica, Arial, sans-serif;
+      }
+
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+
+      header {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        gap: 16px;
+        padding-bottom: 8px;
+        border-bottom: 2px solid #1d1832;
+      }
+
+      h1 {
+        font-size: 20pt;
+        letter-spacing: -0.03em;
+        line-height: 1;
+      }
+
+      .title {
+        margin-top: 4px;
+        font-size: 11pt;
+        font-weight: 600;
+        color: #574f6e;
+      }
+
+      .meta {
+        text-align: right;
+        font-size: 9pt;
+        line-height: 1.5;
+        color: #3d3754;
+      }
+
+      .meta a:hover {
+        text-decoration: underline;
+      }
+
+      section {
+        margin-top: 10px;
+      }
+
+      h2 {
+        font-size: 9.5pt;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        border-bottom: 1px solid #cfc8d8;
+        padding-bottom: 3px;
+        margin-bottom: 8px;
+      }
+
+      .summary {
+        color: #3d3754;
+      }
+
+      .row {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        gap: 12px;
+      }
+
+      .org {
+        font-weight: 700;
+      }
+
+      .role {
+        font-style: italic;
+        color: #3d3754;
+      }
+
+      .when,
+      .where {
+        white-space: nowrap;
+        color: #574f6e;
+        font-size: 9.4pt;
+      }
+
+      ul {
+        margin: 4px 0 0 16px;
+      }
+
+      li {
+        margin-bottom: 2.5px;
+      }
+
+      .stack {
+        list-style: none;
+        margin-left: 0;
+        color: #574f6e;
+      }
+
+      .job + .job,
+      .project + .project {
+        margin-top: 7px;
+      }
+
+      .skills {
+        display: grid;
+        grid-template-columns: 92px 1fr;
+        gap: 3px 10px;
+      }
+
+      .skills dt {
+        font-weight: 700;
+      }
+
+      .edu + .edu {
+        margin-top: 3px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div>
+        <h1>Sarthak Mittal</h1>
+        <p class="title">Backend Software Engineer</p>
+      </div>
+      <p class="meta">
+        Gurugram, Haryana<br />
+        <a href="mailto:sarthakmittalcs@gmail.com">sarthakmittalcs@gmail.com</a><br />
+        <a href="https://www.linkedin.com/in/sarthak-mittal-/">linkedin.com/in/sarthak-mittal-</a><br />
+        <a href="https://github.com/iam-sarthak">github.com/iam-sarthak</a>
+        ·
+        <a href="https://x.com/sarmittal">x.com/sarmittal</a>
+      </p>
+    </header>
+
+    <section>
+      <h2>Summary</h2>
+      <p class="summary">
+        Backend engineer shipping production APIs, RAG workflows, and systems that stay fast under load.
+        Currently building fintech infrastructure at CarePay — loan processing, NBFC integrations, and AI-assisted onboarding.
+      </p>
+    </section>
+
+    <section>
+      <h2>Work Experience</h2>
+
+      <article class="job">
+        <div class="row">
+          <p class="org">CareCoin Technologies (CarePay) — Fintech Startup</p>
+          <p class="where">Gurgaon, Haryana</p>
+        </div>
+        <div class="row">
+          <p class="role">Backend Engineer</p>
+          <p class="when">September 2025 – Present</p>
+        </div>
+        <ul>
+          <li>Built lead-management backends that process 200 loan applications per day.</li>
+          <li>Designed and shipped 500+ production REST APIs for onboarding, loan processing, and document workflows.</li>
+          <li>Cut API response times by 40% through PostgreSQL query optimization and indexing.</li>
+          <li>Built a RAG-based workflow that simplifies the end-to-end loan application journey.</li>
+          <li>Integrated 2 NBFCs — Poonawalla Fincorp and Findoc — into the loan-processing stack.</li>
+          <li>Automated 4+ recurring operational workflows, reducing daily manual backend work.</li>
+          <li class="stack">Stack: Java, Spring Boot, Python, LangChain, PostgreSQL, AWS S3, Docker</li>
+        </ul>
+      </article>
+
+      <article class="job">
+        <div class="row">
+          <p class="org">Vasudhaiva Kutumbakam Group (Leverage Edu) — Ed-tech Startup</p>
+          <p class="where">Noida, Uttar Pradesh</p>
+        </div>
+        <div class="row">
+          <p class="role">Backend Engineer</p>
+          <p class="when">January 2025 – August 2025</p>
+        </div>
+        <ul>
+          <li>Built and maintained REST APIs and backend services for 2 internal operations teams.</li>
+          <li>Resolved 150+ production issues across APIs, queries, and workflows, improving stability and cutting recurring defects.</li>
+          <li>Worked with product and QA to design, implement, and test new REST API integrations.</li>
+          <li class="stack">Stack: Node.js, Express.js, React.js, MongoDB</li>
+        </ul>
+      </article>
+    </section>
+
+    <section>
+      <h2>Projects</h2>
+
+      <article class="project">
+        <div class="row">
+          <p class="org">AI Contract Intelligence Platform</p>
+          <p class="when">January 2026 – April 2026</p>
+        </div>
+        <p class="role">Java, Spring Boot, PostgreSQL, Google Gemini, REST APIs</p>
+        <ul>
+          <li>Built a platform that summarizes PDF/DOCX contracts, extracts clauses, flags risks, compares documents, and answers questions from the text.</li>
+          <li>Implemented a Spring Boot + Gemini RAG backend for semantic search, chat, and automated legal-document analysis.</li>
+          <li>Added async document ingestion with embeddings and HNSW vector indexing for cross-document retrieval.</li>
+        </ul>
+      </article>
+
+      <article class="project">
+        <div class="row">
+          <p class="org">AI Interview Simulator</p>
+          <p class="when">August 2024 – December 2024</p>
+        </div>
+        <p class="role">MongoDB, Express.js, React.js, Node.js, LLM APIs</p>
+        <ul>
+          <li>Shipped a mock-interview app with LLM-generated questions, answer evaluation, and automated scoring.</li>
+          <li>Built a real-time analysis pipeline that combines response evaluation with facial-expression signals.</li>
+        </ul>
+      </article>
+    </section>
+
+    <section>
+      <h2>Skills</h2>
+      <dl class="skills">
+        <dt>Languages</dt>
+        <dd>Java, Python, JavaScript, SQL</dd>
+        <dt>Backend</dt>
+        <dd>Spring Boot, Spring MVC, Node.js, Express, Hibernate, REST APIs, Microservices, JWT, OAuth 2.0, Maven</dd>
+        <dt>Frontend</dt>
+        <dd>React.js, HTML, CSS</dd>
+        <dt>Databases</dt>
+        <dd>PostgreSQL, MySQL, MongoDB, Redis — design, query optimization, indexing</dd>
+        <dt>AI</dt>
+        <dd>Google Gemini, LangChain / LangChain4j, RAG, vector search, workflow automation</dd>
+        <dt>Cloud</dt>
+        <dd>AWS (EC2, S3, RDS), Docker, CI/CD, Linux, Supabase</dd>
+        <dt>Tools</dt>
+        <dd>Git, GitHub, Bitbucket, Postman, IntelliJ IDEA, Jira, Cursor, n8n, Zapier</dd>
+      </dl>
+    </section>
+
+    <section>
+      <h2>Education</h2>
+      <article class="edu">
+        <div class="row">
+          <p>
+            <span class="org">Thapar Institute of Engineering and Technology</span>
+            — MCA, CGPA 8.6 / 10.0
+          </p>
+          <p class="when">Patiala · July 2023 – May 2025</p>
+        </div>
+      </article>
+      <article class="edu">
+        <div class="row">
+          <p>
+            <span class="org">Maharishi Markandeshwar</span>
+            — BCA, CGPA 9.45 / 10.0
+          </p>
+          <p class="when">Mullana · August 2020 – May 2023</p>
+        </div>
+      </article>
+    </section>
+  </body>
+</html>
